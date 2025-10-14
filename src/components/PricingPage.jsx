@@ -18,7 +18,7 @@ const PricingPage = ({ onSelectPlan, onNavigate }) => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* SECCIÓN SUPERIOR */}
-            <div className="container mx-auto max-w-6xl pt-3 lg:pt-10 pb-2 lg:pb-12 px-4">
+            <div className="container mx-auto max-w-[68rem] pt-3 lg:pt-10 pb-2 lg:pb-12 px-4">
                 <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-1">
                         
@@ -68,7 +68,7 @@ const PricingPage = ({ onSelectPlan, onNavigate }) => {
 
                                         <button 
                                             onClick={() => handleGetStarted('One-Time')}
-                                            className="w-full py-3 cursor-pointer rounded-lg font-semibold bg-gray-100 text-gray-900 hover:bg-gray-200 transition-colors"
+                                            className="w-full py-3 cursor-pointer rounded-lg font-semibold bg-gray-900 text-gray-100 hover:bg-gray-800 transition-colors"
                                         >
                                             {t.getStarted}
                                         </button>
@@ -145,7 +145,7 @@ const PricingPage = ({ onSelectPlan, onNavigate }) => {
                         <div className="hidden lg:block">
                             <div className="bg-gradient-to-br from-slate-900 via-blue-900 to-blue-800 text-white p-4 lg:p-8 rounded-2xl shadow-2xl relative overflow-hidden h-full min-h-full flex flex-col justify-center">
                                 
-                                <div className="relative mb-4 lg:mb-6 flex items-center bg-white/10 backdrop-blur-sm px-3 py-2 lg:px-4 lg:py-2.5 rounded-lg text-xs lg:text-sm font-semibold inline-flex w-fit">
+                                <div className="relative mb-4 lg:mb-6 items-center bg-white/10 backdrop-blur-sm px-3 py-2 lg:px-4 lg:py-2.5 rounded-lg text-xs lg:text-sm font-semibold inline-flex w-fit">
                                     <svg className="w-4 h-4 lg:w-5 lg:h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                                     </svg>
@@ -167,10 +167,17 @@ const PricingPage = ({ onSelectPlan, onNavigate }) => {
                                             "{t.testimonialText}"
                                         </p>
                                         <div className="flex items-center gap-3">
-                                            <div className="w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex-shrink-0"></div>
+                                            <div className="flex items-center gap-3">
+                                            <div className="w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                                                </svg>
+                                            </div>
+                                            {/* Nombre y rol */}
                                             <div>
                                                 <p className="text-white font-semibold text-sm">{t.testimonialAuthor}</p>
                                                 <p className="text-white/70 text-xs">{t.testimonialRole}</p>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -198,7 +205,7 @@ const PricingPage = ({ onSelectPlan, onNavigate }) => {
                                     </div>
 
                                     <div className="relative flex-shrink-0">
-                                        <WhatsAppPhoneMock page="pricing" />
+                                        <WhatsAppPhoneMock />
                                     </div>
                                 </div>
                             </div>
@@ -209,7 +216,7 @@ const PricingPage = ({ onSelectPlan, onNavigate }) => {
 
             {/* SECCIÓN FAQ */}
             <div className="bg-gray-50 w-full">
-                <div className="container mx-auto max-w-6xl px-4 py-6 lg:py-1">
+                <div className="container mx-auto max-w-[68rem] px-4 py-6 lg:py-1">
                     <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 lg:p-10">
                         <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-8">
                             {t.faqTitle}

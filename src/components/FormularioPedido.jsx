@@ -55,7 +55,7 @@ const FormularioPedido = ({ onNavigate, selectedPlan }) => {
     return (
         <div className="min-h-screen bg-gray-100">
         {/* SECCIÓN SUPERIOR */}
-        <div className="container mx-auto max-w-6xl pt-4 lg:pt-12 pb-2 lg:pb-12 px-4">
+        <div className="container mx-auto max-w-[68rem] pt-4 lg:pt-12 pb-2 lg:pb-12 px-4">
             <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-1">
                 
@@ -86,8 +86,11 @@ const FormularioPedido = ({ onNavigate, selectedPlan }) => {
                         <div className="flex items-center justify-between">
                             <div className="flex items-center">
                             <div className="w-10 h-10 bg-emerald-400 rounded-full mr-3 flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" className="w-6 h-6">
+                                    <circle cx="64" cy="64" r="64" fill="#25D366" />
+                                    <g>
+                                        <path fill="#FFFFFF" d="M92.346,35.49c-7.522-7.53-17.523-11.678-28.179-11.683 c-21.954,0-39.826,17.868-39.833,39.831c-0.004,7.022,1.831,13.875,5.316,19.913L24,104.193l21.115-5.538 c5.819,3.171,12.369,4.844,19.036,4.847h0.017l0,0c21.954,0,39.823-17.871,39.832-39.833 C104.005,53.027,99.864,43.019,92.346,35.49 M64.168,96.774h-0.013c-5.943-0.002-11.769-1.598-16.853-4.614l-1.209-0.718 l-12.53,3.287l3.343-12.216l-0.787-1.256c-3.315-5.27-5.066-11.361-5.062-17.619c0.006-18.253,14.859-33.104,33.121-33.104 c8.844,0.002,17.155,3.451,23.407,9.71c6.251,6.258,9.691,14.575,9.689,23.422C97.268,81.922,82.415,96.774,64.168,96.774 M82.328,71.979c-0.996-0.499-5.889-2.904-6.802-3.239c-0.913-0.332-1.574-0.497-2.238,0.499s-2.571,3.239-3.153,3.903 c-0.58,0.664-1.16,0.748-2.156,0.249s-4.202-1.549-8.001-4.941c-2.96-2.637-4.958-5.899-5.538-6.895s-0.062-1.533,0.437-2.03 c0.448-0.446,0.996-1.162,1.493-1.744c0.497-0.582,0.663-0.997,0.995-1.66c0.332-0.664,0.167-1.245-0.083-1.743 c-0.25-0.499-2.24-5.398-3.068-7.391c-0.809-1.941-1.629-1.678-2.239-1.708c-0.582-0.028-1.245-0.036-1.908-0.036 c-0.663,0-1.742,0.249-2.654,1.246c-0.911,0.996-3.483,3.403-3.483,8.304c0,4.898,3.566,9.632,4.064,10.295 c0.498,0.663,7.018,10.718,17.002,15.029c2.374,1.024,4.229,1.637,5.674,2.097c2.384,0.759,4.554,0.65,6.27,0.394 c1.912-0.285,5.888-2.407,6.719-4.732c0.829-2.324,0.829-4.316,0.578-4.732C83.986,72.727,83.322,72.478,82.328,71.979"/>
+                                    </g>
                                 </svg>
                             </div>
                             <div>
@@ -132,17 +135,18 @@ const FormularioPedido = ({ onNavigate, selectedPlan }) => {
 
                 {/* COLUMNA DERECHA */}
                 <div className="order-1 lg:order-2">
-                <div className="bg-gradient-to-br from-emerald-950 via-emerald-700 to-emerald-400 text-white p-4 lg:p-6 rounded-2xl shadow-2xl relative overflow-hidden h-full min-h-full flex flex-col justify-center">
-                    <div className="absolute top-0 right-0 transform translate-x-1/4 -translate-y-1/4 w-24 h-24 lg:w-32 lg:h-32 bg-emerald-600 rounded-full opacity-40"></div>
-
-                    <div className="absolute top-2 right-2 w-10 h-10 lg:w-16 lg:h-16 bg-white rounded-full flex items-center justify-center shadow-lg z-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 lg:w-10 lg:h-10 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                <div className="bg-gradient-to-br from-emerald-950 via-emerald-700 to-emerald-400 text-white p-6 lg:p-6 rounded-2xl shadow-2xl relative overflow-hidden h-full min-h-full flex flex-col justify-center">
+                    <div className="absolute top-4 right-8 w-10 h-10 lg:w-23 lg:h-23 bg-white rounded-full flex items-center justify-center shadow-lg z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" className="w-23 h-23">
+                        <circle cx="64" cy="64" r="64" fill="#25D366" />
+                        <g>
+                            <path fill="#FFFFFF" d="M92.346,35.49c-7.522-7.53-17.523-11.678-28.179-11.683 c-21.954,0-39.826,17.868-39.833,39.831c-0.004,7.022,1.831,13.875,5.316,19.913L24,104.193l21.115-5.538 c5.819,3.171,12.369,4.844,19.036,4.847h0.017l0,0c21.954,0,39.823-17.871,39.832-39.833 C104.005,53.027,99.864,43.019,92.346,35.49 M64.168,96.774h-0.013c-5.943-0.002-11.769-1.598-16.853-4.614l-1.209-0.718 l-12.53,3.287l3.343-12.216l-0.787-1.256c-3.315-5.27-5.066-11.361-5.062-17.619c0.006-18.253,14.859-33.104,33.121-33.104 c8.844,0.002,17.155,3.451,23.407,9.71c6.251,6.258,9.691,14.575,9.689,23.422C97.268,81.922,82.415,96.774,64.168,96.774 M82.328,71.979c-0.996-0.499-5.889-2.904-6.802-3.239c-0.913-0.332-1.574-0.497-2.238,0.499s-2.571,3.239-3.153,3.903 c-0.58,0.664-1.16,0.748-2.156,0.249s-4.202-1.549-8.001-4.941c-2.96-2.637-4.958-5.899-5.538-6.895s-0.062-1.533,0.437-2.03 c0.448-0.446,0.996-1.162,1.493-1.744c0.497-0.582,0.663-0.997,0.995-1.66c0.332-0.664,0.167-1.245-0.083-1.743 c-0.25-0.499-2.24-5.398-3.068-7.391c-0.809-1.941-1.629-1.678-2.239-1.708c-0.582-0.028-1.245-0.036-1.908-0.036 c-0.663,0-1.742,0.249-2.654,1.246c-0.911,0.996-3.483,3.403-3.483,8.304c0,4.898,3.566,9.632,4.064,10.295 c0.498,0.663,7.018,10.718,17.002,15.029c2.374,1.024,4.229,1.637,5.674,2.097c2.384,0.759,4.554,0.65,6.27,0.394 c1.912-0.285,5.888-2.407,6.719-4.732c0.829-2.324,0.829-4.316,0.578-4.732C83.986,72.727,83.322,72.478,82.328,71.979"/>
+                        </g>
                     </svg>
                     </div>
 
-                    <div className="relative mb-2 lg:mb-6 flex items-center bg-white/5 backdrop-blur-sm px-2 py-1 lg:px-3 lg:py-2 rounded-lg text-xs lg:text-sm font-medium inline-flex">
-                    <svg className="w-3 h-3 lg:w-4 lg:h-4 mr-1 lg:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="relative mb-2 lg:mb-6 items-center bg-white/5 backdrop-blur-sm px-2 py-1 lg:px-3 lg:py-2 rounded-lg text-xs lg:text-sm font-medium inline-flex">
+                    <svg className="w-3 h-3 lg:w-6 lg:h-6 mr-1 lg:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                     {t.guaranteedDelivery}
@@ -178,7 +182,7 @@ const FormularioPedido = ({ onNavigate, selectedPlan }) => {
 
         {/* SECCIÓN TESTIMONIOS */}
         <div className="bg-white w-full">
-            <div className="container mx-auto max-w-6xl px-3 py-12">
+            <div className="container mx-auto max-w-[68rem] px-3 py-12">
             <section className="mb-3">
                 <h2 className="text-2xl font-bold text-gray-500 text-center mb-1">{t.trustedTitle}</h2>
                 <p className="text-gray-500 text-center mb-8">12,513 {t.verificationsCompleted}</p>
@@ -194,7 +198,7 @@ const FormularioPedido = ({ onNavigate, selectedPlan }) => {
 
         {/* SECCIÓN FAQ */}
         <div className="bg-gray-100 w-full">
-            <div className="container mx-auto max-w-6xl px-3 py-12">
+            <div className="container mx-auto max-w-[68rem] px-3 py-12">
             <section className="space-y-4">
                 {t.faqs.map((faq, index) => (
                 <FAQItem key={index} question={faq.question} answer={faq.answer} />

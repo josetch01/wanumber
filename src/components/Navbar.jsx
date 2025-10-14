@@ -60,7 +60,7 @@ const Navbar = ({ onNavigate, currentPage }) => {
 
     const currencies = [
         //{ name: 'Soles Peruanos', code: 'PEN', symbol: 'PE S/ PEN' },
-        { name: 'Dólares Americanos', code: 'USD', symbol: 'US $ USD' },
+        //{ name: 'Dólares Americanos', code: 'USD', symbol: 'US $ USD' },
         //{ name: 'Euros', code: 'EUR', symbol: '€ EUR' },
     ];
 
@@ -79,7 +79,7 @@ const Navbar = ({ onNavigate, currentPage }) => {
                         <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                     </svg>
                 );
- 
+
             case 'pricing':
                 return (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -173,7 +173,7 @@ const Navbar = ({ onNavigate, currentPage }) => {
 
                         {/* Currency Selector (Desktop only) */}
                         <div className="hidden lg:block relative">
-                            <button 
+                            {/*<button 
                                 className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-200 rounded-lg transition-colors"
                                 onClick={toggleCurrency}
                             >
@@ -181,7 +181,7 @@ const Navbar = ({ onNavigate, currentPage }) => {
                                 <svg xmlns="http://www.w3.org/2000/svg" className={`h-4 w-4 transition-transform ${isCurrencyOpen ? 'rotate-180' : ''}`} viewBox="0 0 20 20" fill="currentColor">
                                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/>
                                 </svg>
-                            </button>
+                            </button>*/}
 
                             {isCurrencyOpen && (
                                 <div className="absolute right-0 mt-2 w-56 rounded-lg shadow-lg bg-white border border-gray-200 z-50">
@@ -266,11 +266,11 @@ const Navbar = ({ onNavigate, currentPage }) => {
 
                     {/* Sidebar Footer */}
                     <div className="px-4 pb-6 border-t border-gray-200 pt-4 space-y-3">
-                        {/* Currency Selector (Mobile) */}
+                        {/* Currency Selector (Mobile) 
                         <div className="relative">
                             <div className="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer" onClick={toggleCurrency}>
                                 <div className="flex items-center gap-3 text-gray-600">
-                                    {/* Icono de Moneda */}
+                                    {/* Icono de Moneda 
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clipRule="evenodd"/>
                                     </svg>
@@ -301,7 +301,7 @@ const Navbar = ({ onNavigate, currentPage }) => {
                                     </div>
                                 </div>
                             )}
-                        </div>
+                        </div> */}
 
                         {/* Success Rate Badge (Mobile) */}
                         <div className="flex items-center justify-center gap-2 bg-green-50 px-4 py-3 rounded-lg">
