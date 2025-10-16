@@ -253,7 +253,7 @@ export const translations = {
     
     // Testimonios
     testimonials: [
-        { name: 'Abhishek', country: 'Colombia', phone: '+57 312-892-***', stars: 5, text: "¡Súper buen servicio! Finalmente funcionó. ¡Estoy muy feliz de tener una cuenta de WhatsApp americana ahora!" },
+        { name: 'María', country: 'Colombia', phone: '+57 312-892-***', stars: 5, text: "¡Súper buen servicio! Finalmente funcionó. ¡Estoy muy feliz de tener una cuenta de WhatsApp americana ahora!" },
         { name: 'Michael', country: 'Guatemala', phone: '+502 5123-45**', stars: 5, text: "Mejor proveedor de números en línea. Buen servicio y entrega rápida. Exactamente lo que necesitaba." },
         { name: 'Carlos', country: 'España', phone: '+34 612 783-***', stars: 4, text: "Hubo un problema cuando la página se refrescó pero el soporte respondió rápidamente con una solución." },
     ],
