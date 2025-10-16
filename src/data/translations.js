@@ -156,15 +156,15 @@ export const translations = {
     
     planOneTimeName: 'Una Sola Vez',
     planOneTimeDesc: 'Acceso de una sola vez, entrega instantánea',
-    planOneTimePrice: 'S/ 29.00',
+    planOneTimePrice: '$ 29.00 USD',
     planOneTimeFeature1: 'Úsalo una sola vez, sin recuperación si se pierde',
     planOneTimeFeature2: 'Número instantáneo para 1300+ aplicaciones',
     
     planYearlyName: 'Anual',
     planYearlyDesc: 'Tranquilidad todo el año — reutiliza en cualquier momento',
-    planYearlyPrice: 'S/ 0.99',
-    planYearlyPeriod: '/día',
-    planYearlyBilled: 'facturado S/ 140.00/año',
+    planYearlyPrice: '$ 0.25',
+    planYearlyPeriod: '/day',
+    planYearlyBilled: 'facturado $ 90.00/año',
     planYearlyFeature1: 'Mantén tu número todo el año, reutiliza en cualquier momento',
     planYearlyFeature2: '4x más barato que una sola vez por día',
     
@@ -182,8 +182,8 @@ export const translations = {
     pricingCleanNumbers: 'Obtén acceso a números de teléfono temporales para verificación de SMS en 100+ plataformas con nuestro servicio premium',
     pricingPageSidebarTrustedByUsers: 'Disponibilidad inmediatamente',
 
-    verifyTitle: 'Activa tu línea de WhatsApp',
-    verifySubtitle: 'Cuenta en 60s',
+    verifyTitle: 'Activa tu línea de WhatsApp en 60s',
+    //verifySubtitle: 'Cuenta en 60s',
     unusedNumbers: 'Números sin usar - funciona cuando otros fallan',
     cleanNumbers: 'Números limpios sin usar de nuestra red privada.',
     whenCompetitors: 'Cuando los competidores fallan, nosotros tenemos éxito con líneas dedicadas nunca usadas antes.',
@@ -253,7 +253,7 @@ export const translations = {
     
     // Testimonios
     testimonials: [
-        { name: 'Abhishek', country: 'Colombia', phone: '+57 612-892-***', stars: 5, text: "¡Súper buen servicio! Finalmente funcionó. ¡Estoy muy feliz de tener una cuenta de WhatsApp americana ahora!" },
+        { name: 'Abhishek', country: 'Colombia', phone: '+57 312-892-***', stars: 5, text: "¡Súper buen servicio! Finalmente funcionó. ¡Estoy muy feliz de tener una cuenta de WhatsApp americana ahora!" },
         { name: 'Michael', country: 'Guatemala', phone: '+502 5123-45**', stars: 5, text: "Mejor proveedor de números en línea. Buen servicio y entrega rápida. Exactamente lo que necesitaba." },
         { name: 'Carlos', country: 'España', phone: '+34 612 783-***', stars: 4, text: "Hubo un problema cuando la página se refrescó pero el soporte respondió rápidamente con una solución." },
     ],

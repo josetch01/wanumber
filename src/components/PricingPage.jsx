@@ -204,7 +204,7 @@ const PricingPage = ({ onSelectPlan, onNavigate }) => {
                                         </div>
                                     </div>
 
-                                    <div className="relative flex-shrink-0">
+                                    <div className="relative flex-shrink-0 w-32 lg:w-full transform translate-y-8"> 
                                         <WhatsAppPhoneMock />
                                     </div>
                                 </div>

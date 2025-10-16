@@ -170,7 +170,7 @@ const FormularioPedido = ({ onNavigate, selectedPlan }) => {
                         </p>
                     </div>
 
-                    <div className="relative flex-shrink-0 w-32 lg:w-full">
+                    <div className="relative flex-shrink-0 w-32 lg:w-full transform translate-y-7"> 
                         <WhatsAppPhoneMock />
                     </div>
                     </div>
