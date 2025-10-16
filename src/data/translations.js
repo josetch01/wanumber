@@ -202,7 +202,7 @@ export const translations = {
     faq1Question: "¿Qué está incluido en ambos planes?",
     faq1Answer: "Ambos planes incluyen acceso instantáneo a números de teléfono para 1300+ aplicaciones y servicios compatibles. Obtendrás entrega instantánea de SMS con nuestra garantía de tasa de éxito del 99.8%.",
     faq2Question: "¿Cuál es la diferencia entre Una Sola Vez y Anual?",
-    faq2Answer: "Una Sola Vez ($29) te da acceso instantáneo para una única verificación - úsalo una sola vez sin recuperación si se pierde. Anual ($49) te permite mantener y reutilizar tus números durante todo el año, lo que lo hace 4x más barato que una sola vez si lo usas a diario.",
+    faq2Answer: "Una Sola Vez ($29) te da acceso instantáneo para una única verificación - úsalo una sola vez sin recuperación si se pierde. Anual ($90) te permite mantener y reutilizar tus números durante todo el año, lo que lo hace 4x más barato que una sola vez si lo usas a diario.",
     faq3Question: "¿Qué pasa si no recibo un SMS?",
     faq3Answer: "Si no recibes un código de verificación dentro de 2 minutos, puedes solicitar un nuevo número sin costo adicional. Nuestro sistema monitorea automáticamente la entregabilidad de SMS y te ayudará a asegurar que obtengas tu código.",
     faq4Question: "¿Ofrecen reembolsos?",
