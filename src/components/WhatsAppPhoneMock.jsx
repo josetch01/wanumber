@@ -1,5 +1,5 @@
 import React from 'react';
-import whatsappPhoneImage from '../assets/Celular.webp';
+import whatsappPhoneImage from '../assets/Celular.svg';
 
 const WhatsAppPhoneMock = () => {
     return (
